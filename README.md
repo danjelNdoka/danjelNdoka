@@ -6,7 +6,7 @@
 - 📫 How to reach me: carrier pigeon (or LinkedIn if the pigeon is on strike)
 - 😄 Pronouns: 0/1
 - ⚡ Fun fact: I spend more time naming variables than writing functions
-
+___
 <!--
 **danjelNdoka/danjelNdoka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
