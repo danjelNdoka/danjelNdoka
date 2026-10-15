@@ -7,7 +7,7 @@
 - 😄 Pronouns: 0/1
 - ⚡ Fun fact: I spend more time naming variables than writing functions
 ___
-<h2>{ } Languages</h2>
+<h2>{ } Languages <img src="icons/assemblyIcon.png" width="28"></h2>
 <h2>⚙️ Frameworks</h2>
 <h2>📚 Libraries</h2>
 <h2>🗄️ Databases</h2>
