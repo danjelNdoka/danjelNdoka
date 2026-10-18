@@ -1,5 +1,5 @@
 - 🔭 I’m currently working on feeding my 😾 graph
-- 🌱 I’m currently learning 🐍
+- 🌱 I’m currently learning 🐍|☕
 - 👯 I’m looking to collaborate on projects that seem like a good idea at 2 AM
 - 🤔 I’m looking for help with bug extermination
 - 💬 Ask me about questionable project ideas
