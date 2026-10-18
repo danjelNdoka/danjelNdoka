@@ -7,6 +7,8 @@
 - 😄 Pronouns: 0/1
 - ⚡ Fun fact: I spend more time naming variables than writing functions
 ___
+# Current Focus                                                                                                   Ƨυɔoꟻ ƚᴎɘɿɿυƆ
+___
 <h1>{ } Languages   <img src="icons/assemblyIcon.svg" width="33" height="33"> <img src="icons/cIcon.svg" width="33" height="33"> <img src="icons/javaIcon.svg" width="33" height="33"> <img src="icons/htmlIcon.svg" width="33" height="33"> <img src="icons/cssIcon.svg" width="33" height="33"> <img src="icons/javascriptIcon.svg" width="33" height="33"> <img src="icons/c++Icon.svg" width="33" height="33"> <img src="icons/rIcon.svg" width="33" height="33"> <img src="icons/sqlIcon.svg" width="33" height="33"> <img src="icons/pythonIcon.svg" width="33" height="33"> <img src="icons/phpIcon.svg" width="33" height="33"></h1>
 <h1>⚙️ Frameworks   <img src="icons/swingIcon.svg" width="33" height="33"><img src="icons/springIcon.svg" width="33" height="33"></h1>
 <h1>📚 Libraries</h1>
