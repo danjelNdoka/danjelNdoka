@@ -7,7 +7,8 @@
 - 😄 Pronouns: 0/1
 - ⚡ Fun fact: I spend more time naming variables than writing functions
 ___
-<h1><sub>💎</sub><i>Favourite Stack</i> <img src="icons/animated/javaIcon.gif" width="66" height="66"> <img src="icons/animated/javascriptIcon.gif" width="66" height="66"> <img src="icons/animated/pythonIcon.gif" width="66" height="66"> <img src="icons/animated/react-nativeIcon.gif" width="66" height="66"> <i>Current Focus</i><sup>🚀</sup></h1>
+<h1><img src="icons/animated/javaIcon.gif" width="66" height="66"> <img src="icons/animated/javascriptIcon.gif" width="66" height="66"> <div align=right><i>Current Focus</i><sup>🚀</sup><br></div> <div align=top><i>Current Focus</i><sup>🚀</sup><br></div>
+<sub>💎</sub><i>Favourite Stack</i> <img src="icons/animated/pythonIcon.gif" width="66" height="66"> <img src="icons/animated/react-nativeIcon.gif" width="66" height="66"></h1>
 
 <h1>{ } Languages   <img src="icons/static/assemblyIcon.svg" width="33" height="33"> <img src="icons/static/cIcon.svg" width="33" height="33"> <img src="icons/static/javaIcon.svg" width="33" height="33"> <img src="icons/static/htmlIcon.svg" width="33" height="33"> <img src="icons/static/cssIcon.svg" width="33" height="33"> <img src="icons/static/javascriptIcon.svg" width="33" height="33"> <img src="icons/static/c++Icon.svg" width="33" height="33"> <img src="icons/static/rIcon.svg" width="33" height="33"> <img src="icons/static/sqlIcon.svg" width="33" height="33"> <img src="icons/static/pythonIcon.svg" width="33" height="33"> <img src="icons/static/phpIcon.svg" width="33" height="33"></h1>
 
