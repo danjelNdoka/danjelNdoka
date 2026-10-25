@@ -8,6 +8,7 @@
 - ⚡ Fun fact: I spend more time naming variables than writing functions
 ___
 <h1><img src="icons/animated/javaIcon.gif" width="99" height="99"> <img src="icons/animated/javascriptIcon.gif" width="99" height="99"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <div align=right><i>Current Focus</i><sup>🚀</sup><br></div>
+<img src="icons/animated/binary_flow_left_up_1000.gif" width="99" height="99">
 <div align=center><img src="icons/animated/githubIcon.gif" width="99" height="99"></div>
 <sub>💎</sub><i>Favourite Stack</i> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <div align=right><img src="icons/animated/pythonIcon.gif" width="99" height="99"> <img src="icons/animated/react-nativeIcon.gif" width="99" height="99"></div></h1>
 
