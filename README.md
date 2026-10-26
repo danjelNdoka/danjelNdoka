@@ -7,7 +7,7 @@
 - 😄 Pronouns: 0/1
 - ⚡ Fun fact: I spend more time naming variables than writing functions
 ___
-<img src="icons/focusRow.svg" width="100%">
+<img src="icons/animated/animatedScreen.svg" width="100%">
 
 <h1>{ } Languages   <img src="icons/static/assemblyIcon.svg" width="33" height="33"> <img src="icons/static/cIcon.svg" width="33" height="33"> <img src="icons/static/javaIcon.svg" width="33" height="33"> <img src="icons/static/htmlIcon.svg" width="33" height="33"> <img src="icons/static/cssIcon.svg" width="33" height="33"> <img src="icons/static/javascriptIcon.svg" width="33" height="33"> <img src="icons/static/c++Icon.svg" width="33" height="33"> <img src="icons/static/rIcon.svg" width="33" height="33"> <img src="icons/static/sqlIcon.svg" width="33" height="33"> <img src="icons/static/pythonIcon.svg" width="33" height="33"> <img src="icons/static/phpIcon.svg" width="33" height="33"></h1>
 
