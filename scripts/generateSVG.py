@@ -9,21 +9,20 @@ def img(name, x, y, s=99):
 
 W, H = 830, 330
 S = 99                           # icon size (fixed)
-M = 8                            # margin from all four borders (about one checker box)
+M = 8                            # one box from the borders
+NUDGE = 4                        # cancels the emoji glyph's built-in side padding
 
-ROW1 = M                         # top row sits M below the top border
-ROW3 = H - M - S                 # bottom row sits M above the bottom border
-ROW2 = (H - S) // 2              # github icon vertically centered
+ROW1 = M
+ROW3 = H - M - S
+ROW2 = (H - S) // 2
 
-EMO = 32                         # width reserved for each emoji
-FAV_TXT = 250                    # exact width of "Favourite Stack" at 32px
-FOC_TXT = 215                    # exact width of "Current Focus" at 32px
+EMO = 32
+FAV_TXT = 250
+FOC_TXT = 215
 
-# left group: 💎 + "Favourite Stack"
 FAV_START = M
 FAV_END = M + EMO + FAV_TXT
 
-# right group: "Current Focus" + 🚀
 FOC_END = W - M
 FOC_START = FOC_END - EMO - FOC_TXT
 
@@ -34,17 +33,17 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     @media (prefers-color-scheme: dark) {{ .t {{ fill: #ffffff; }} }}
   </style>
 
-  <!-- row 1: java starts at the 💎, js ends at the end of "Stack"; title on the right -->
+  <!-- row 1 -->
   {img("javaIcon", FAV_START, ROW1)}
   {img("javascriptIcon", FAV_END - S, ROW1)}
   <text class="t" x="{FOC_START}" y="{ROW1 + 60}" textLength="{FOC_TXT}" lengthAdjust="spacing">Current Focus</text>
-  <text class="e" x="{FOC_END}" y="{ROW1 + 48}" text-anchor="end">🚀</text>
+  <text class="e" x="{FOC_END + NUDGE}" y="{ROW1 + 48}" text-anchor="end">🚀</text>
 
-  <!-- row 2: github icon centered -->
+  <!-- row 2 -->
   {img("githubIcon", (W - S) // 2, ROW2)}
 
-  <!-- row 3: title on the left; python starts at "Current Focus", react ends at the 🚀 -->
-  <text class="e" x="{FAV_START}" y="{ROW3 + 68}">💎</text>
+  <!-- row 3 -->
+  <text class="e" x="{FAV_START - NUDGE}" y="{ROW3 + 68}">💎</text>
   <text class="t" x="{FAV_START + EMO}" y="{ROW3 + 60}" textLength="{FAV_TXT}" lengthAdjust="spacing">Favourite Stack</text>
   {img("pythonIcon", FOC_START, ROW3)}
   {img("react-nativeIcon", FOC_END - S, ROW3)}
