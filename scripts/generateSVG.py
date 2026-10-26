@@ -14,7 +14,7 @@ ROW1, ROW2, ROW3 = 0, 115, 230   # top y of each row
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
   <style>
     text {{ font: italic 700 32px 'Segoe UI', Arial, sans-serif; fill: #1f2328; }}
-    .sup, .sub {{ font-size: 24px; }}
+    .sup, .sub {{ font-size: 24px; font-style: normal; font-weight: 400; }}
     @media (prefers-color-scheme: dark) {{ text {{ fill: #ffffff; }} }}
   </style>
 
