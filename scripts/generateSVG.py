@@ -9,10 +9,13 @@ def img(name, x, y, s=99):
 
 W, H = 830, 330
 S = 99                           # icon size (fixed)
-ROW1, ROW2, ROW3 = 0, 115, 230   # top y of each row
-M = 1                            # 1px space from the borders
+M = 8                            # margin from all four borders (about one checker box)
 
-EMO = 30                         # width reserved for each emoji
+ROW1 = M                         # top row sits M below the top border
+ROW3 = H - M - S                 # bottom row sits M above the bottom border
+ROW2 = (H - S) // 2              # github icon vertically centered
+
+EMO = 32                         # width reserved for each emoji
 FAV_TXT = 250                    # exact width of "Favourite Stack" at 32px
 FOC_TXT = 215                    # exact width of "Current Focus" at 32px
 
@@ -21,8 +24,8 @@ FAV_START = M
 FAV_END = M + EMO + FAV_TXT
 
 # right group: "Current Focus" + 🚀
-FOC_START = W - M - EMO - FOC_TXT
 FOC_END = W - M
+FOC_START = FOC_END - EMO - FOC_TXT
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
   <style>
@@ -35,7 +38,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   {img("javaIcon", FAV_START, ROW1)}
   {img("javascriptIcon", FAV_END - S, ROW1)}
   <text class="t" x="{FOC_START}" y="{ROW1 + 60}" textLength="{FOC_TXT}" lengthAdjust="spacing">Current Focus</text>
-  <text class="e" x="{FOC_END - EMO + 2}" y="{ROW1 + 48}">🚀</text>
+  <text class="e" x="{FOC_END}" y="{ROW1 + 48}" text-anchor="end">🚀</text>
 
   <!-- row 2: github icon centered -->
   {img("githubIcon", (W - S) // 2, ROW2)}
