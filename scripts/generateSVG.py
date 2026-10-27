@@ -55,6 +55,23 @@ DOWN_TOP, DOWN_BOTTOM = ROW1 + 60 + 4, ROW3 - 3
 UP_H = UP_BOTTOM - UP_TOP
 DOWN_H = DOWN_BOTTOM - DOWN_TOP
 
+# flows that run into the github icon in the middle
+GH_X = (W - S) / 2               # github icon left edge
+GH_CX = W / 2                    # github icon centre
+LANE, PAD = 26, 11               # lane spacing of the flow and side padding (baked into the gifs)
+
+# JS -> github: starts at the end of the JS icon, runs right, then down into the github icon
+JG_X = js_x + S
+JG_Y = ROW1
+JG_W = (GH_CX + LANE + PAD) - JG_X
+JG_H = ROW2 - 1 - ROW1
+
+# python -> github: starts at the left edge of the python icon, runs left, then up into the github icon
+PG_X = GH_CX - LANE - PAD
+PG_Y = ROW2 + S + 2
+PG_W = python_x - PG_X
+PG_H = ROW3 + S - PG_Y
+
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
   <style>
     .t {{ font: italic 700 32px 'Segoe UI', Arial, sans-serif; fill: #1f2328; }}
@@ -65,6 +82,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   <!-- binary flows (drawn first so they sit behind everything) -->
   {flow("binary_flow_up", UP_X, UP_TOP, UP_W, UP_H)}
   {flow("binary_flow_down", DOWN_X, DOWN_TOP, DOWN_W, DOWN_H)}
+  {flow("binary_flow_right", JG_X, JG_Y, JG_W, JG_H)}
+  {flow("binary_flow_left", PG_X, PG_Y, PG_W, PG_H)}
 
   <!-- row 1 -->
   {img("javaIcon", java_x, ROW1)}
