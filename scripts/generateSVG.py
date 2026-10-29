@@ -14,9 +14,10 @@ RAMP_FRAMES = 12        # how many of the icon's first frames are played in slow
 PROCESS_DELAY = 0.8     # pause after the language icons are fully on, before digits head to github
 EXTRA_DELAY = 0.0       # push the whole sequence later (seconds)
 # The still image an icon shows while it is "off". None = automatic (the frame with the most visible pixels,
-# normally the complete icon). Or give a frame number, e.g. {"javaIcon": 0}.
+# normally the complete icon). Or give a frame number (0 = the GIF's first frame), e.g. {"javaIcon": 0}.
+# The github icon uses its first frame, which is the one with the eyes closed.
 STATIC_FRAME = {"javaIcon": None, "javascriptIcon": None, "pythonIcon": None,
-                "react-nativeIcon": None, "githubIcon": None}
+                "react-nativeIcon": None, "githubIcon": 0}
 
 # ================================================================ helpers
 def b64(raw):
