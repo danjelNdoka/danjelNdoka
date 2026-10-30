@@ -1,5 +1,5 @@
 <img src="icons/animated/animatedScreen.svg" width="100%">
-<hr>
+<hr> <!--______________________________________________-->
 <h1>
   { } Languages   
   <img src="icons/static/assemblyIcon.svg" width="33" height="33"> 
@@ -47,3 +47,4 @@
   <img src="icons/static/jupyterIcon.svg" width="33" height="33"> 
   <img src="icons/static/phpmyadminIcon.svg" width="33" height="33">
 </h1>
+<!--_____________________________________________________________-->
