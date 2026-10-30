@@ -48,4 +48,4 @@
   <img src="icons/static/phpmyadminIcon.svg" width="33" height="33">
 </h1>
 <!--_____________________________________________________________-->
-<h3>🔒 Copyright © 2026 Dante</h3>
+<h3 align=center>🔒 Copyright © 2026 Dante</h3>
