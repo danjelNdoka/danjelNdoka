@@ -40,7 +40,11 @@
   🛠️ Tools   
   <img src="icons/static/vscodeIcon.svg" width="33" height="33"> 
   <img src="icons/static/gitIcon.svg" width="33" height="33"> 
-  <picture><source media="(prefers-color-scheme: dark)" srcset="icons/static/githubIcon(light).svg"><source media="(prefers-color-scheme: light)" srcset="icons/static/githubIcon(dark).svg"><img src="icons/static/githubIcon(dark).svg" width="33" height="33"></picture> 
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/static/githubIcon(light).svg">
+    <source media="(prefers-color-scheme: light)" srcset="icons/static/githubIcon(dark).svg">
+    <img src="icons/static/githubIcon(dark).svg" width="33" height="33">
+  </picture> 
   <img src="icons/static/gitlabIcon.svg" width="33" height="33"> 
   <img src="icons/static/ciscoIcon.svg" width="33" height="33"> 
   <img src="icons/static/arcgisIcon.svg" width="33" height="33"> 
